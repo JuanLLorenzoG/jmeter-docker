@@ -5,8 +5,8 @@ FROM alpine:3.11
 LABEL maintainer="antonio@flood.io"
 
 # 3 Copy local JMeter to the image and set environment variables
-ARG JMETER_FILE="apache-jmeter-5.2.1.tgz"
-ARG JMETER_FOLDER="apache-jmeter-5.2.1"
+ARG JMETER_FILE="apache-jmeter-5.5.tgz"
+ARG JMETER_FOLDER="apache-jmeter-5.5"
 COPY ${JMETER_FILE} /tmp/
 ENV JMETER_HOME /home/jmeter/${JMETER_FOLDER}
 ENV	JMETER_BIN ${JMETER_HOME}/bin
