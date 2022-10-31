@@ -8,7 +8,7 @@ LABEL maintainer="antonio@flood.io"
 ARG JMETER_FILE="apache-jmeter-5.5.tgz"
 ARG JMETER_FOLDER="apache-jmeter-5.5"
 COPY ${JMETER_FILE} /tmp/
-COPY test /home/jmeter/apache-jmeter-5.5/
+# COPY test /home/jmeter/apache-jmeter-5.5/
 ENV JMETER_HOME /home/jmeter/${JMETER_FOLDER}
 ENV	JMETER_BIN ${JMETER_HOME}/bin
 
