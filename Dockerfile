@@ -34,4 +34,4 @@ ENV PATH $PATH:$JMETER_BIN
 WORKDIR ${JMETER_HOME}
 
 # 8 Launch entrypoint
-ENTRYPOINT ["/entrypoint.sh"]
+# ENTRYPOINT ["/entrypoint.sh"]
