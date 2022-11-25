@@ -64,12 +64,12 @@
 					"raw": "{\r\n    \"title\": \"api-test\",\r\n    \"description\": \"api-test\",\r\n    \"published\": true\r\n}"
 				},
 				"url": {
-					"raw": "https://curvy-candies-smash-213-0-57-163.loca.lt/api/tutorials",
+					"raw": "https://ten-moons-lead-213-0-57-163.loca.lt/api/tutorials",
 					"protocol": "https",
 					"host": [
-						"099880aef81607",
-						"lhr",
-						"life"
+						"ten-moons-lead-213-0-57-163",
+						"loca",
+						"lt"
 					],
 					"path": [
 						"api",
