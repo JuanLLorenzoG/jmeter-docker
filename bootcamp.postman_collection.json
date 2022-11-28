@@ -67,7 +67,7 @@
 					"raw": "https://192.168.49.2:30001/api/tutorials",
 					"protocol": "https",
 					"host": [
-						"http://192.168.49.2:30001/"
+						"192.168.49.2:30001"
 					],
 					"path": [
 						"api",
