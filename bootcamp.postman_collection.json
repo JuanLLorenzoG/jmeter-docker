@@ -67,9 +67,7 @@
 					"raw": "https://localhost:8082/api/tutorials",
 					"protocol": "https",
 					"host": [
-						"localhost",
-						"loca",
-						"lt"
+						"localhost:8082"
 					],
 					"path": [
 						"api",
