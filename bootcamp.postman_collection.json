@@ -64,8 +64,8 @@
 					"raw": "{\r\n    \"title\": \"api-test\",\r\n    \"description\": \"api-test\",\r\n    \"published\": true\r\n}"
 				},
 				"url": {
-					"raw": "https://192.168.49.2:30001/api/tutorials",
-					"protocol": "https",
+					"raw": "http://192.168.49.2:30001/api/tutorials/",
+					"protocol": "http",
 					"host": [
 						"192.168.49.2:30001"
 					],
